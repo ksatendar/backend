@@ -2,8 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Node, Nest, Vue, Typeorm, Postgresql",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "nest start",
+    "build": "nest build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
